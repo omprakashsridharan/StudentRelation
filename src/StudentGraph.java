@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 
-public class DFS {
+public class StudentGraph {
     HashMap<String,ArrayList<String>> adjList;
     public void DFS(){
         int size = adjList.size();
